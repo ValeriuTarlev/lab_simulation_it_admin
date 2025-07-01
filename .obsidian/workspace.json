@@ -1,0 +1,190 @@
+{
+  "main": {
+    "id": "52eeab665971d5b9",
+    "type": "split",
+    "children": [
+      {
+        "id": "57c58f8a1b5f168b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "04af283f92d081d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows11-Client/Windows11-Client.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Windows11-Client"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "93cec278b67ec6f4",
+    "type": "split",
+    "children": [
+      {
+        "id": "10c154dabb23560b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "43c4cc54984368dd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "cb197bbe442824ea",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "51f558b6dec57adf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b357e43ce471da66",
+    "type": "split",
+    "children": [
+      {
+        "id": "8e0d426bb572392b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e52f9c291d35cc51",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Windows11-Helpdesk/Windows11-Helpdesk.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Windows11-Helpdesk"
+            }
+          },
+          {
+            "id": "f083686449f08436",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Windows11-Helpdesk/Windows11-Helpdesk.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Windows11-Helpdesk"
+            }
+          },
+          {
+            "id": "b4c2b3740ec495df",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b4aa6d4a27015159",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Windows11-Client/Windows11-Client.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Windows11-Client"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "04af283f92d081d4",
+  "lastOpenFiles": [
+    "Windows-Server2022/images/mapped-drives.png",
+    "Windows-Server2022/images/security-groups-ad.png",
+    "Windows-Server2022/Windows-Server2022.md",
+    "Windows-Server2022/images/security-groups.png",
+    "Windows-Server2022/images/shares-hr-personal.png",
+    "Windows-Server2022/images/shared-folders-server-manager.png",
+    "Windows11-Helpdesk/Windows11-Helpdesk.md",
+    "Windows11-Client/Windows11-Client.md",
+    "Windows-Server2022/images/security-groups-AD.png",
+    "Windows11-Helpdesk/images/reset-password.png",
+    "Windows11-Helpdesk/images/password-expiration-setting.png",
+    "Windows11-Helpdesk/images/disable-account.png",
+    "Windows11-Helpdesk/images/active-directory-users.png",
+    "Windows11-Helpdesk/README.md",
+    "Windows-Server2022/README.md",
+    "Windows11-Client/README.md"
+  ]
+}

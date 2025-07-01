@@ -1,11 +1,11 @@
-# 🖥️ Windows Server – Active Directory Setup
+# 🖥️ Windows Server 2022
 
-**VM Specs:**
+### VM Specs
 - OS: Windows Server 2022 (Trial)
 - IP: `10.10.10.1` (Static)
 - Role: Domain Controller
 
-### Steps Performed
+### Setup Steps
 1. Installed **Active Directory Domain Services (AD DS)** via Server Manager
 2. Promoted server to **Domain Controller**
 3. Created new **forest and domain**: `valetech.com`
@@ -14,6 +14,16 @@
 6. Changed network adapter to Host-only for internal communication between Server and VMs
 7. Set Static IP: `10.10.10.1` and DNS: `10.10.10.1` for internal network
 
+### Group Policy Configuration - Enable Ping (ICMP) for Domain
+1. Created a GPO named `Allow ICMPv4 Echo for Domain`
+2. Configured a custom inbound firewall rule:
+	- Protocol: ICMPv4
+	- Type: Echo Request
+	- Action: Allow
+	- Profile: Domain Only
+3. Linked the GPO to the **valetech.com domain root**, so it applies to all domain-joined machines
+4. On Clients (Desktop1, Desktop2), ran on cmd: 
+	- `gpupdate /force
 
 ### cmd commands
 - `ipconfig` Displays basic IP address, subnet mask, and default gateway for network adapters.

@@ -8,6 +8,7 @@
 - IP Address: `10.10.10.11`
 - Joined Domain: valetech.com
 
+---
 ## Setup Steps
 1. Installed Windows 11 Pro clean
 2. Enabled built-in Administrator account
@@ -17,4 +18,26 @@
 6. Joined `Desktop2` domain: `valetech`
 7. Logged in using `valetech\Peter`
 
+--- 
+## Remote Access Setup 
+### 1. Enabled Remote Desktop 
+- Opened: `This PC -> Properties -> Remote Settings`
+- Checked `ALlow remote connections to this computer`
+- Verified RDP access from Desktop1 (helpdesk)
+
+### 2. Allowed File and Printer Sharing
+- Opened **Windows Defender Firewall with advanced settings** 
+- Enabled inbound rule: `File and Printer Sharing (SMB-In)`
+- Required for: 
+	- Remote Registry 
+	- Access via `\\Desktop\c$`
+
+### 3. Generated Remote Assistance Invitation 
+- Ran `msra` -> Selected **Invite someone you trust** 
+- Saved invitation file to Desktop
+- Shared code with helper (helpdesk)
+
+📷`windows-remote-assistance.png
+
+--- 
 

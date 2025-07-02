@@ -5,6 +5,7 @@
 - IP: `10.10.10.1` (Static)
 - Role: Domain Controller
 
+--- 
 ## Setup Steps
 1. Installed **Active Directory Domain Services (AD DS)** via Server Manager
 2. Promoted server to **Domain Controller**
@@ -14,6 +15,7 @@
 6. Changed network adapter to Host-only for internal communication between Server and VMs
 7. Set Static IP: `10.10.10.1` and DNS: `10.10.10.1` for internal network
 
+--- 
 ## Group Policy Configuration - Enable Ping (ICMP) for Domain
 1. Created a GPO named `Allow ICMPv4 Echo for Domain`
 2. Configured a custom inbound firewall rule:
@@ -25,9 +27,9 @@
 4. On Clients (Desktop1, Desktop2), ran on `cmd`: 
 	- `gpupdate /force
 
-
+--- 
 ## File Sharing & Drive Mapping Setup
-1. Shared Folders Creation 
+### 1. Shared Folders Creation 
 - Created two folders using **Server Manager**
 	- `\\server2022\HR`
 	- `\\server2022\Personal`
@@ -37,7 +39,7 @@
 
 📷shared-folders-server-manager.png
 
-2. Active Directory: Group and User Management 
+### 2. Active Directory: Group and User Management 
 - Created Security Groups: `HR`, `Personal`
 - Added users to appropriate groups: 
 	- `helpdesk` -> `HR`, `Personal`
@@ -45,7 +47,7 @@
 
 📷security-groups-ad.png
 
-3. Network Drive Mapping (Two methods)
+### 3. Network Drive Mapping (Two methods)
 - **Method 1: Manual Mapping (Client Side)**
 	- On the client, opened **File Explorer** > Right-click `This PC` > `Map Network Drive`
 	- Select a driver letter (e.g., `P:`, and mapped to `\\server2022\HR`
@@ -56,7 +58,7 @@
 
 📷mapped-drives.png
 
-
+--- 
 ### cmd commands
 - `ipconfig` Displays basic IP address, subnet mask, and default gateway for network adapters.
 - `ipconfig /all` Shows detailed network configuration info, including MAC address, DHCP status, DNS servers, and more

@@ -40,4 +40,13 @@
 📷`windows-remote-assistance.png
 
 --- 
+## Group Policy 
+- Logged in as `valetech`Peter`
+- Opened Task Manager -> Access was **Denied** due to applied Group Policy 
+- Verified via `gpupdate /force` 
+- Confirmed the policy to remove `Change Password` and `Task Manager` was applied
+
+📷`task-manager-disabled.png
+
+--- 
 

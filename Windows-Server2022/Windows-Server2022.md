@@ -59,10 +59,27 @@
 📷mapped-drives.png
 
 --- 
+## Group Policy Configuration - User Restrictions
+- Created a new Group Policy Object: `Task Manager`
+- In `User Configuration -> Administrative Templates -> System -> Ctrl+Alt-Del Options`: 
+	- Enabled `Remove Task Manager`
+	- Enabled `Remove Change Password`
+- Linked the GPO to the `HR` OU and enforce it
+
+📷group-policy-task-manager.png
+
+- On Server Manager -> Group Policy Management, ran `Group Policy Results Wizard` to implement RSoP on `peter on Desktop2`
+
+📷group-policy-report-peter-desktop2.png
+
+---
 ### cmd commands
 - `ipconfig` Displays basic IP address, subnet mask, and default gateway for network adapters.
 - `ipconfig /all` Shows detailed network configuration info, including MAC address, DHCP status, DNS servers, and more
 - `net use` Connects, lists, or removes shared network drives or resources
 - `net user <username> /domain` Displays details about a domain user account (e.g., when the password was last set). Note: Must be run on a PC joined to a domain
+- `gpupdate /force` Refresh Group Policy Settings
+- 
 
+--- 
 

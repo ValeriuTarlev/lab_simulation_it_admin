@@ -73,13 +73,26 @@
 📷group-policy-report-peter-desktop2.png
 
 ---
+## PDQ Deploy - Software Deployment via Shared Folder
+- Inserted **Guest Additions CD image** in Virtual box 
+- Configured **Shared Folder** between host and Desktop2 VM:
+	- Shared Path: Host Folder containing `PDQDeploySetup.exe`
+	- Accessed it from VM under `\\VBOXSVR`
+- Installed PDQ 
+- Used PDQ Deploy to create a deployment package for: 
+	- **PDFsam Basic 5.3.1**
+- Deployed the software successfully to Desktop2
+
+📷pdq-deploy.png
+📷pdq-deployment-pdfsambasic-client.png
+
+---
 ### cmd commands
 - `ipconfig` Displays basic IP address, subnet mask, and default gateway for network adapters.
 - `ipconfig /all` Shows detailed network configuration info, including MAC address, DHCP status, DNS servers, and more
 - `net use` Connects, lists, or removes shared network drives or resources
 - `net user <username> /domain` Displays details about a domain user account (e.g., when the password was last set). Note: Must be run on a PC joined to a domain
 - `gpupdate /force` Refresh Group Policy Settings
-- 
 
 --- 
 

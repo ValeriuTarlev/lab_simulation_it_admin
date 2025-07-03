@@ -11,14 +11,12 @@
             "id": "04af283f92d081d4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Windows-Server2022/Windows-Server2022.md",
-                "mode": "source",
-                "source": false
+                "file": "Windows-Server2022/images/pdq-deployment-pdfsambasic-client.png"
               },
-              "icon": "lucide-file",
-              "title": "Windows-Server2022"
+              "icon": "lucide-image",
+              "title": "pdq-deployment-pdfsambasic-client"
             }
           }
         ]
@@ -142,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows-Server2022/Windows-Server2022.md",
+                "file": "Windows-Server2022/images/pdq-deployment-pdfsambasic-client.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Windows-Server2022"
+              "title": "Outline of pdq-deployment-pdfsambasic-client"
             }
           }
         ],
@@ -170,19 +168,19 @@
   },
   "active": "04af283f92d081d4",
   "lastOpenFiles": [
-    "Windows-Server2022/images/group-policy-report-peter-desktop2.png",
     "Windows-Server2022/Windows-Server2022.md",
+    "Windows-Server2022/images/pdq-deployment-pdfsambasic-client.png",
+    "Windows-Server2022/images/shared-folders-server-manager.png",
+    "Windows-Server2022/images/pdq-deploy.png",
+    "Windows-Server2022/images/group-policy-report-peter-desktop2.png",
     "Windows-Server2022/images/group-policy-task-manager.png",
     "Windows11-Client/Windows11-Client.md",
     "Windows11-Helpdesk/Windows11-Helpdesk.md",
     "Windows11-Client/images/task-manager-disabled.png",
     "Windows-Server2022/images/mapped-drives.png",
     "Windows-Server2022/images/security-groups-ad.png",
-    "Windows-Server2022/images/shared-folders-server-manager.png",
     "Windows11-Client/images/windows-remote-assistance-invitation.png",
     "Windows11-Helpdesk/images/remote-desktop-connection.png",
-    "Windows11-Helpdesk/images/windows-remote-assistance.png",
-    "Windows11-Helpdesk/images/remote-desktop.png",
     "Windows11-Helpdesk/README.md",
     "Windows-Server2022/README.md",
     "Windows11-Client/README.md"
